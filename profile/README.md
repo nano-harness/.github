@@ -1,4 +1,4 @@
-# the nano series
+# <img src="https://raw.githubusercontent.com/nano-harness/nano-harness.github.io/main/logo.svg" width="36" align="top" alt="nano logo"> the nano series
 
 [中文](./README.zh-CN.md)
 
