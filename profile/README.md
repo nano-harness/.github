@@ -1,5 +1,7 @@
 # the nano series
 
+[中文](./README.zh-CN.md)
+
 Minimal, readable implementations of agent loops and harness engineering — real systems, kept small enough to read in an evening.
 
 | Project | What it is | Language |
