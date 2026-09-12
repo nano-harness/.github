@@ -12,4 +12,6 @@
 
 📖 配套课程 [harness-101](https://github.com/albert-lv/harness-101)：从零构建 AI agent 与 harness engineering 的动手课程。
 
+构建在 2026 年已收敛的协议栈之上——MCP（agent ↔ 工具）、ACP（编辑器 ↔ agent）、mailbox/A2A 式消息（agent ↔ agent）、Symphony 模式的 issue 驱动编排——每层只实现一次，保持可读。
+
 🌐 [nano-harness.github.io](https://nano-harness.github.io)

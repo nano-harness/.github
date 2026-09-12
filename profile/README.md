@@ -12,4 +12,6 @@ Minimal, readable implementations of agent loops and harness engineering — rea
 
 📖 Pairs with [harness-101](https://github.com/albert-lv/harness-101), a hands-on course on building AI agents and harness engineering from scratch.
 
+Built on the converged 2026 protocol stack — MCP (agent ↔ tools), ACP (editor ↔ agent), mailbox/A2A-style messaging (agent ↔ agent), and Symphony-pattern issue-driven orchestration — each layer implemented once, kept readable.
+
 🌐 [nano-harness.github.io](https://nano-harness.github.io)
