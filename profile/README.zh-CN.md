@@ -2,7 +2,7 @@
 
 [English](./README.md)
 
-用最小、可读的实现讲透 agent loop 与 harness engineering——真实可运行的系统，小到一个晚上就能读完。
+用最小、可读的实现讲透 agent loop 与 harness engineering——概念一个晚上读完，运行中的代码按文件逐个攻破。
 
 | 项目 | 简介 | 语言 |
 |---|---|---|
