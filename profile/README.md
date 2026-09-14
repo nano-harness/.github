@@ -2,7 +2,7 @@
 
 [中文](./README.zh-CN.md)
 
-Minimal, readable implementations of agent loops and harness engineering — real systems, kept small enough to read in an evening.
+Minimal, readable implementations of agent loops and harness engineering — concepts you can read in an evening, running code you read one file at a time.
 
 | Project | What it is | Language |
 |---|---|---|
