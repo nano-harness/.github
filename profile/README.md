@@ -2,16 +2,15 @@
 
 [中文](./README.zh-CN.md)
 
-Minimal, readable implementations of agent loops and harness engineering — concepts you can read in an evening, running code you read one file at a time.
+Minimal, readable implementations of agent loops, orchestration, distributed execution, and practical developer tools — each project can be understood, built, and tested from source.
 
 | Project | What it is | Language |
 |---|---|---|
-| [nano-symphony](https://github.com/nano-harness/nano-symphony) | Lightweight orchestration service for running coding agents at scale — plan runs, issue-driven workflows, multi-agent adapters | TypeScript / Bun |
-| [nano-agent](https://github.com/nano-harness/nano-agent) | A minimal AI coding assistant — the agent loop, tools, and context management without framework bloat | Go |
-| [nano-cloud](https://github.com/nano-harness/nano-cloud) | Distributed execution for agents — gateway/worker architecture for running agent fleets | Go |
+| [nano-agent](https://github.com/nano-harness/nano-agent) | Lightweight AI coding assistant with agent loops, modular tools, sandboxing, TUI/daemon, and MCP | Go |
+| [nano-symphony](https://github.com/nano-harness/nano-symphony) | Issue-driven orchestration with isolated workspaces, plan runs, SQLite, MCP, and a web dashboard | TypeScript / Bun |
+| [nano-cloud](https://github.com/nano-harness/nano-cloud) | Distributed agent execution with gateway/worker architecture and Docker isolation | Go |
+| [impact-analyzer](https://github.com/nano-harness/impact-analyzer) | Multi-language change impact analysis with call graphs, affected tests, and contract diffs | Go |
+| [virtual-workspace](https://github.com/nano-harness/virtual-workspace) | Real Git worktree directories for local and remote multi-repository workspaces | Rust |
+| [sparse-ngram-search](https://github.com/nano-harness/sparse-ngram-search) | Fast, low-memory source-code search with sparse n-grams and Git-aware indexes | Rust |
 
-📖 Pairs with [harness-101](https://nano-harness.github.io), a hands-on course on building AI agents and harness engineering from scratch.
-
-Built on the converged 2026 protocol stack — MCP (agent ↔ tools), ACP (editor ↔ agent), mailbox/A2A-style messaging (agent ↔ agent), and Symphony-pattern issue-driven orchestration — each layer implemented once, kept readable.
-
-🌐 [nano-harness.github.io](https://nano-harness.github.io)
+🌐 [nano-harness.github.io](https://nano-harness.github.io) · Source-first, MIT-licensed projects.

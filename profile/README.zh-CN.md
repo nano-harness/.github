@@ -2,16 +2,15 @@
 
 [English](./README.md)
 
-用最小、可读的实现讲透 agent loop 与 harness engineering——概念一个晚上读完，运行中的代码按文件逐个攻破。
+用最小、可读的实现呈现 agent loop、编排、分布式执行和实用开发工具——每个项目都可以从源码理解、构建和测试。
 
 | 项目 | 简介 | 语言 |
 |---|---|---|
-| [nano-symphony](https://github.com/nano-harness/nano-symphony) | 轻量级 coding agent 编排服务——plan run、issue 驱动的工作流、多 agent 适配器 | TypeScript / Bun |
-| [nano-agent](https://github.com/nano-harness/nano-agent) | 极简 AI 编程助手——agent loop、工具与上下文管理，没有框架包袱 | Go |
-| [nano-cloud](https://github.com/nano-harness/nano-cloud) | agent 的分布式执行——gateway/worker 架构，跨机器运行 agent 集群 | Go |
+| [nano-agent](https://github.com/nano-harness/nano-agent) | 轻量级 AI 编程助手：agent loop、模块化工具、沙箱、TUI/daemon 和 MCP | Go |
+| [nano-symphony](https://github.com/nano-harness/nano-symphony) | issue 驱动编排：隔离工作区、plan run、SQLite、MCP 和 Web 仪表盘 | TypeScript / Bun |
+| [nano-cloud](https://github.com/nano-harness/nano-cloud) | 基于 gateway/worker 与 Docker 隔离的分布式 agent 执行 | Go |
+| [impact-analyzer](https://github.com/nano-harness/impact-analyzer) | 多语言变更影响分析：调用图、受影响测试和公共契约 diff | Go |
+| [virtual-workspace](https://github.com/nano-harness/virtual-workspace) | 为本地与远程多仓库工作区准备真实 Git worktree 目录 | Rust |
+| [sparse-ngram-search](https://github.com/nano-harness/sparse-ngram-search) | 基于稀疏 n-gram 和 Git 感知索引的快速低内存源码搜索 | Rust |
 
-📖 配套课程 [harness-101](https://nano-harness.github.io)：从零构建 AI agent 与 harness engineering 的动手课程。
-
-构建在 2026 年已收敛的协议栈之上——MCP（agent ↔ 工具）、ACP（编辑器 ↔ agent）、mailbox/A2A 式消息（agent ↔ agent）、Symphony 模式的 issue 驱动编排——每层只实现一次，保持可读。
-
-🌐 [nano-harness.github.io](https://nano-harness.github.io)
+🌐 [nano-harness.github.io](https://nano-harness.github.io) · 源码优先，MIT 许可。
